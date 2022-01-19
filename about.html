@@ -5,45 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./Style/about.css">
+   
 </head>
 <body>
-    <header >
-       
-        <img src="/assets/TODO.jpg">
-    
-        <h1>TODO</h1>
-    
-        <ul>
-            <li><a href="">HOME</a></li>
-            <li><a href="">ABOUT</a></li>
-            <li><a href="">SIGN UP</a></li>
-        </ul>
-</header>
-<main>
-    <section>
-        <img src="">
-         <h4>Reham Jdetawe<br> web developer</h4>
+    <header class="grid-container-header">
+
+        <img src=https://via.placeholder.com/100x100>
+
+        
+        <nav class="navbar">
+            <a href="./index.html">Home</a>
+            <a href="./about.html">About Us</a>
+        </nav>
+
+    </header>
+<main class=" grid-container-main">
+    <section class ="about">
+      <div id="myimage"><img src="https://via.placeholder.com/100x100"alt="my picture"></div>  
+       <div><h4 style="text-align: left ; margin-left: 50px;">Reham Jdetawe</h4>
+            <p  style="border: 1px solid black;width: 300px;height: 100px;">I graduated from Yarmouk University Computer Information System Major </p>
+        </div>  
        
     </section>
  
    
     <section>
-        <form action="/action_page.php">
-            <label for="name">name:</label>
-            <input type="text" id="name" name="name"><br><br>
-            <label for="email">email:</label>
-            <input type="text" id="email" name="email"><br><br>
-            <label for="message">message:</label>
-            <input type="text" id="message" name="message"><br><br>
-            <input type="submit" value="Submit">
+        <h2>Contact Me</h2>
+        <form action="/action_page.php" style="width: 400px;margin-left: 300px;">
+            <div class="lable"><label for="fullname">Full Name</label></div>
+            <div class="input"><input type="text" id="fullname" name="fullname"><br><br></div>
+            <div class="lable"><label for="email">Email</label></div>
+            <div class="input"><input type="text" id="email" name="email"><br><br></div>
+            <div class="lable"><label for="Phone">Phone</label></div>
+            <div class="input"><input type="text" id="Phone" name="Phone"><br><br></div>
+            <div class="lable"><label for="message" >Message</label></div>
+            <div class="input"><input style="height: 70px;" type="text"  id="message" name="message" ><br><br></div>
+            <input id="submit" type="submit" value="Send">
           </form>
 
     </section>
 </main>
 <footer>
-    <p>&#169;</p>
-    <h6>Contact info:tel:87655467<br>email:hghfv.com</h6>
-
+    <p>&#169;2022 ASAC. All right recieved</p>
 </footer>
 </body>
 </html>

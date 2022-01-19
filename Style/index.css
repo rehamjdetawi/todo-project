@@ -1,0 +1,54 @@
+header{
+background-color: rgb(189, 182, 182);
+height: 100px;
+
+}
+.navbar{
+    height: 60px; 
+    width: 600px;
+    float:right;
+text-align: center;
+padding-top: 40px;   
+    
+}
+ a{
+    padding: 30px ;
+    align-items: center;
+    margin: 60px;
+    color: black;
+    text-decoration: none;
+  
+    
+}
+h1{
+width: 100%;
+text-align: center;
+}
+.grid-container-header {
+    display: grid;
+    grid-template-columns: .5fr 1.5fr;
+    column-gap: 20px;
+
+}
+.grid-container-main{
+display: grid;
+grid-template-rows: 1fr 1fr;
+row-gap: 20px;
+
+}
+#task{
+    margin-left: 28%;
+    border-collapse: collapse;
+    width: 50%;
+}
+#task td, #task th {
+    border: 1px solid black;
+    padding: 8px;
+    
+  }
+ footer{
+     text-align: center;
+     margin-top: 70px;
+     background-color: rgb(189, 182, 182);
+     height: 50px;
+ }
