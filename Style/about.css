@@ -32,15 +32,23 @@ header{
     text-align: center;
         
         }
-        footer{
+        footer p{
+            position: absolute;
             text-align: center;
-            margin-top: 70px;
+            margin-top: 100%;
             background-color: rgb(189, 182, 182);
             height: 50px;
+            width: 100%;
+            margin-bottom: 0%;
+            padding-top: 10px;
         }
-        #myimage{
-            float: left;
-            padding: 50px;
+        .myimage img{
+            float: right;
+            padding: 20px;
+
+            padding-top: 50px;
+            width: 100px;
+            height: 100px;
         }
         .about{
             display: grid;
@@ -65,5 +73,24 @@ header{
             background-color: rgb(166, 187, 228);
             width: 80px;
             height: 40px;
+        }
+        .myname{
+            position: absolute;
+            top: 100px;
+            left: 450px;
+        }
+        .contactme{
+            position: absolute;
+            top: 300px;
+            left: 100px;
+        }
+        .contactme h2{
+            width: 100%;
+            text-align: center;
+            margin-left: 130px;
+        }
+        .contactme form{
+            width: 400px;
+            margin-left: 200px;
         }
        
