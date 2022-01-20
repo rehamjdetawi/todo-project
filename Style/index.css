@@ -46,9 +46,13 @@ row-gap: 20px;
     padding: 8px;
     
   }
- footer{
-     text-align: center;
-     margin-top: 70px;
-     background-color: rgb(189, 182, 182);
-     height: 50px;
- }
+  footer p{
+    position: absolute;
+    text-align: center;
+    margin-top: 100%;
+    background-color: rgb(189, 182, 182);
+    height: 50px;
+    width: 100%;
+    margin-bottom: 0%;
+    padding-top: 10px;
+}
