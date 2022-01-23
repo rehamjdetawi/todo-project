@@ -27,3 +27,29 @@ if (confirm(text) == true) {
  
 
 }
+
+
+// var arr1=[prompt("Are you at university?"),
+// prompt("do you have a task?")
+// ,prompt("do you complete the task?")];
+// var arr1=[];
+var q1=prompt("Are you at university?");
+if(q1==="")
+{
+    alert("invalid")
+}
+var q2=prompt("do you have a task?");
+if(q2==="")
+{alert("invalid");}
+q3=prompt("do you complete the task?");
+if(q3==="")
+{alert("invalid");}
+var arr1=[q1,q2,q3];
+arrTraverse(arr1);
+function arrTraverse(arr){
+for( var x=arr.length;x>=0;x--)
+{
+    console.log(arr[x]);
+}
+}
+
